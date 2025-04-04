@@ -16,7 +16,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-// Seu array de charadas
+// Charadas
 const riddles = [
   { question: "O que tem dentes mas não morde?", answer: "pente" },
   { question: "O que quanto mais seca, mais molhada fica?", answer: "toalha" },
